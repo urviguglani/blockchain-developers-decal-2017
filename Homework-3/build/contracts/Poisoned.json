@@ -1,0 +1,70 @@
+{
+  "contract_name": "Poisoned",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "bid",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "auction",
+          "type": "address"
+        }
+      ],
+      "name": "setTarget",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getTarget",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": true,
+      "type": "constructor"
+    },
+    {
+      "payable": false,
+      "type": "fallback"
+    }
+  ],
+  "unlinked_binary": "0x60606040525b5b5b610241806100166000396000f3006060604052361561005f5763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166312065fe0811461006e578063454a2ab314610093578063776d1a01146100ab578063f00e6a2a146100cc575b341561006a57600080fd5b5b5b005b341561007957600080fd5b6100816100fb565b60405190815260200160405180910390f35b341561009e57600080fd5b61006a60043561010a565b005b34156100b657600080fd5b61006a600160a060020a03600435166101bd565b005b34156100d757600080fd5b6100df610205565b604051600160a060020a03909116815260200160405180910390f35b600160a060020a033016315b90565b600030600160a060020a03163182111580156101305750600054600160a060020a031615155b156101b8575060008054600160a060020a0316908190631998aeef908490604051602001526040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016020604051808303818588803b151561019b57600080fd5b6125ee5a03f115156101ac57600080fd5b50505050604051805150505b5b5050565b30600160a060020a031681600160a060020a0316141515610201576000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383161790555b5b50565b600054600160a060020a03165b905600a165627a7a72305820b400207577072f9339592f1a5a2c8b4a7d6f860df4e5df04a47d7900d654e5cd0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1508980406076
+}
